@@ -1,0 +1,16 @@
+{
+  "name": "ftp-insights",
+  "version": "1.0.0",
+  "description": "Monitoring data quality for insights",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Lukasz Kapica",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^6.0.0",
+    "ftp": "^0.3.10",
+    "lodash": "^4.17.10"
+  }
+}
