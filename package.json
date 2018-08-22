@@ -4,13 +4,16 @@
   "description": "Monitoring data quality for insights",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "start": "node index.js"
   },
   "author": "Lukasz Kapica",
   "license": "MIT",
   "dependencies": {
+    "chalk": "^2.4.1",
     "dotenv": "^6.0.0",
     "ftp": "^0.3.10",
-    "lodash": "^4.17.10"
+    "lodash": "^4.17.10",
+    "nodemailer": "^4.6.8"
   }
 }
